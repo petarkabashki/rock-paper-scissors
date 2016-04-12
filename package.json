@@ -1,0 +1,19 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "Rock Paper Scissors game",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify app/app.js > build/bundle.js",
+    "unit:test": "./node_modules/.bin/mocha",
+    "bdd:test": "chimp --browser=chrome",
+    "start:server": "http-server -p 3030"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "expect": "^1.16.0",
+    "mocha": "^2.4.5"
+  }
+}

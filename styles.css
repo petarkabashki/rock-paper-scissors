@@ -1,0 +1,53 @@
+#main {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+    padding: 10px;
+}
+#main .header h2 {
+    margin: 0;
+}
+
+.game {
+    margin: 10px 0 ;
+    padding: 10px;
+}
+.game.pending button {
+    width: 270px;
+    margin: 0 30px;
+    padding: 0.5em;
+}
+
+.game{
+    border: 1px solid grey;
+}
+.game-players{
+
+}
+
+.game-players .player:first-child {
+    float: left;
+}
+
+
+.game-players .player:last-child {
+    float: right;
+}
+
+.player{
+    border: 1px dotted gray;
+    width: 300px;
+    padding: 10px;
+}
+
+.player h4{
+    margin: 10px 0;
+}
+button.chosen{
+    border: 3px dotted darkred;
+}
+
+.clearBoth{
+    clear: both;
+}
